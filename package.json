@@ -1,5 +1,5 @@
 {
-  "name": "express-middleware-timer",
+  "name": "@irae/express-middleware-timer",
   "version": "1.0.0",
   "description": "A simple timer implementation for debugging express middleware.",
   "main": "index.js",
