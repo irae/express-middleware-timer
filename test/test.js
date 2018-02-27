@@ -174,7 +174,6 @@ describe('instrument', function() {
                     var end = Date.now();
                     var totalTime = end-start;
 
-                    // console.log(res._timer);
                     assert(totalTime < 40, 'totatime');
                     assert(res._timer.last - res._timer.last < 40, 'report time');
                     Object.keys(res._timer.times).forEach(function(name) {
